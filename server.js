@@ -6,6 +6,7 @@ const Sequelize = require('sequelize');
 
 const app = express();
 
+// Use cors
 app.use(cors());
 
 // Establishing the connection to MySQL database with credentials from .env file
